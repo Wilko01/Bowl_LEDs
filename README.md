@@ -10,19 +10,21 @@ The LEDs will be connected in parallel leaving the voltage over the resistor 5V 
 Don't use D4 as it will give issues during boot. Use D5 of the NodeMCU instead.
 
 ### Parts
-1 x NodeMCU
+- 1 x NodeMCU
 
-<img src="Images/ESP8266_NodeMCU.jpg" alt="drawing" width="500"/>
+<img src="Images/ESP8266_NodeMCU.png" alt="drawing" width="500"/>
 
 
-12 x 5mm white led
-1 x 12 Ohm 0,5W resistor
-1 x 1k resistor
-1 x BD139 NPN transistor
+- 12 x 5mm white led
+- 1 x 12 Ohm 0,5W resistor
+- 1 x 1k resistor
+- 1 x BD139 NPN transistor
+
+
 <img src="Images/BD139.png" alt="drawing" width="500"/>
 
 ### Schematic overview
-<img src="Images/Schematic_overview.jpg" alt="drawing" width="500"/>
+<img src="Images/Schematic_overview.png" alt="drawing" width="500"/>
 
 
 ### ESPHome installation
@@ -95,6 +97,8 @@ entities:
 Turn the led on and off via the card at the dashboard
 
 Scope values when the dim value in Home Assistant is set to 50%
+
+
 <img src="Images/Scope_Channel1_and_2.png" alt="drawing" width="500"/>
 <img src="Images/Scope_Channel3_and_4.png" alt="drawing" width="500"/>
 <img src="Images/Scope_Channel3_min_4.png" alt="drawing" width="500"/>
