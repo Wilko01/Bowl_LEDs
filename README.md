@@ -1,6 +1,8 @@
 # Bowl with LEDS
 Control the intensity of the LEDS via a NODEMCU with PWM and add it to Home Assistant
 
+<img src="Images/Bowl_Light.jpg" alt="drawing" width="500"/>
+
 ## Description and operation instructions
 12Leds controlled via a dashboard in Home Assistant.
 
@@ -19,7 +21,7 @@ Don't use D4 as it will give issues during boot. Use D5 of the NodeMCU instead.
 - 1 x 12 Ohm 0,5W resistor
 - 1 x 1k resistor
 - 1 x BD139 NPN transistor
-
+- 1 x JST 2.54 2 pin connector
 
 <img src="Images/BD139.png" alt="drawing" width="500"/>
 
@@ -118,4 +120,9 @@ During testing with the breadboard, the power used by the LEDs was way below the
 ### Wishlist
 ..
 
-
+### Pictures
+<img src="Images/LED-Ring_top_view.jpg" alt="drawing" width="500"/>
+<img src="Images/LED-Ring_Bottom_view.jpg" alt="drawing" width="500"/>
+<img src="Images/PCB_Top_View.jpg" alt="drawing" width="500"/>
+<img src="PCB_Bottom_View.jpg" alt="drawing" width="500"/>
+<img src="Images/Scope_Connected.jpg" alt="drawing" width="500"/>
