@@ -105,14 +105,10 @@ Scope values when the dim value in Home Assistant is set to 50%
 <img src="Images/Scope_Channel3_and_4.png" alt="drawing" width="500"/>
 <img src="Images/Scope_Channel3_min_4.png" alt="drawing" width="500"/>
 
-
-### Information
-- [PNP amplifier circuit](https://circuitdigest.com/electronic-circuits/transistor-as-an-amplifier-circuit)
-- [ESPHOME PWM control](https://esphome.io/components/fan/speed.html)
-
-Generic
-- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
-
+## 3D printer files
+It all started by measuring the air quality when printing, so the 3D printer files must be included in this project:
+- [3D files include the Sketchup make file as well as the 3D print files .STL](/3D_Printer_Files)
+- [Thingiverse](https://www.thingiverse.com/thing:5135259)
 
 ### Problems
 During testing with the breadboard, the power used by the LEDs was way below the 20mA. This was mainly due to the bad connections of the breadboard. Once the connections were soldered, the problem was gone and the max current of the LEDs was almost reached.
@@ -124,5 +120,15 @@ During testing with the breadboard, the power used by the LEDs was way below the
 <img src="Images/LED-Ring_top_view.jpg" alt="drawing" width="500"/>
 <img src="Images/LED-Ring_Bottom_view.jpg" alt="drawing" width="500"/>
 <img src="Images/PCB_Top_View.jpg" alt="drawing" width="500"/>
-<img src="PCB_Bottom_View.jpg" alt="drawing" width="500"/>
+<img src="Images/PCB_Bottom_View.jpg" alt="drawing" width="500"/>
 <img src="Images/Scope_Connected.jpg" alt="drawing" width="500"/>
+
+
+### Information
+- [PNP amplifier circuit](https://circuitdigest.com/electronic-circuits/transistor-as-an-amplifier-circuit)
+- [ESPHOME PWM control](https://esphome.io/components/fan/speed.html)
+
+Generic
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+
+
