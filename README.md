@@ -108,7 +108,7 @@ Scope values when the dim value in Home Assistant is set to 50%
 ## 3D printer files
 It all started by measuring the air quality when printing, so the 3D printer files must be included in this project:
 - [3D files include the Sketchup make file as well as the 3D print files .STL](/3D_Printer_Files)
-- [Thingiverse](https://www.thingiverse.com/thing:5135259)
+- [Thingiverse](https://www.thingiverse.com/thing:5224819)
 
 ### Problems
 During testing with the breadboard, the power used by the LEDs was way below the 20mA. This was mainly due to the bad connections of the breadboard. Once the connections were soldered, the problem was gone and the max current of the LEDs was almost reached.
