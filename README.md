@@ -41,7 +41,7 @@ Create a new device  with this code:
 #Runs on a NodeMCU
 
 esphome:
-  name: bowl-leds
+  name: bowl-lamp
 
 esp8266:
   board: nodemcuv2
@@ -85,7 +85,7 @@ output:
 fan:
   - platform: speed
     output: pwm_output
-    name: "Bowl-LEDs"
+    name: "Bowl-Lamp"
 #end code
 ```
 
